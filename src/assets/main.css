@@ -1,0 +1,35 @@
+@import './base.css';
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Sumana:wght@400;700&display=swap');
+
+#app {
+  margin: 0 auto;
+  font-weight: 600;
+  font-family: 'Sumana', sans-serif;
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+  padding: 3px;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    display: flex;
+    place-items: center;
+    width: 100vw;
+  }
+
+  #app {
+    display: flex;
+    width: 100vw;
+  }
+}
