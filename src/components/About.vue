@@ -3,6 +3,7 @@
         <div class="imgdiv">
             <img src="/bg.jpeg" alt="about" class="bgimg"/>
             <p>" Toorji Ka Jhalra Bavdi "</p>
+            <h3>Jodhpur</h3>
         </div>
         <div class="content">
             <h2>About Us</h2>
@@ -56,6 +57,12 @@
     z-index: 2;
     margin-top: 1rem;
     font-style: italic;
+}
+
+.imgdiv h3 {
+    font-size: 1rem;
+    color: #451d03;
+    text-align: center;
 }
 
 .bgimg {
