@@ -2,10 +2,10 @@
     <div :class="{'navbar': true, 'scrolled': scrollHeight > 40}">
         <h1>Shree Govind Tourism</h1>
         <ul>
-            <li><a href="#home" v-on:click="scroll">Home</a></li>
-            <li><a href="#about" v-on:click="about">About</a></li>
-            <li><a href="#services" v-on:click="services">Services</a></li>
-            <li><a href="#contact" v-on:click="contact">Contact Us</a></li>
+            <li><a v-on:click="scroll">Home</a></li>
+            <li><a v-on:click="about">About</a></li>
+            <li><a v-on:click="services">Services</a></li>
+            <li><a v-on:click="contact">Contact Us</a></li>
         </ul>
     </div>
 </template>
@@ -58,11 +58,12 @@
         align-items: center;
         padding: 1.5rem 4rem;
         background-color: transparent;
+        transition: background-color 1s;
     }
 
     .scrolled {
         background-color: #00000099;
-        transition: background-color 0.5s;
+        transition: background-color 1s;
     }
 
     .navbar h1 {

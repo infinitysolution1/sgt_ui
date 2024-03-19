@@ -1,7 +1,7 @@
 <template>
     <div class="contact">
         
-        <div class="form">
+        <!-- <div class="form">
             <h1>Contact Us</h1>
             <p>Feel free to contact us for any queries or feedback.</p>
             <form @submit="submitForm">
@@ -19,10 +19,14 @@
                 </div>
                 <button type="submit">Submit</button>
             </form>
+        </div> -->
+        <div class="form">
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeFyJNrNYFmqgeXBz4N5ohpAXSlX50gN9JjZR6PJwwKf1vsZQ/viewform?embedded=true" class="form-iframe">Loading…</iframe>     
         </div>
         <div class="imgdiv">
             <img src="/contactus.jpeg" alt="about" class="bgimg"/>
             <p>" Jaisalmer fort "</p>
+            <h3>Jaisalmer</h3>
         </div>
     </div>
 </template>
@@ -61,7 +65,7 @@ export default {
     }
 
     .content {
-        width: 40%;
+        width: 20%;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -70,11 +74,20 @@ export default {
     }
 
     .form {
-        width: 40%;
+        width: 38%;
+        height:100vh;
         display: flex;
-        flex-direction: column;
-        justify-content: center;
         z-index: 2;
+        border-radius: 8px;
+    }
+
+    .form-iframe {
+        scale: 0.8;
+        width: 100%;
+        margin-top: -2.5%;
+        background-color: white;
+        border-radius: 16px;
+        overflow-y: hidden;
     }
 
     .form h1{
@@ -140,6 +153,12 @@ export default {
     z-index: 2;
     margin-top: 1rem;
     font-style: italic;
+}
+
+.imgdiv h3 {
+    font-size: 1rem;
+    color: #451d03;
+    text-align: center;
 }
 
 .bgimg {
