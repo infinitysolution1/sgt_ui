@@ -166,7 +166,7 @@
 
     .service h3 {
         z-index: 1;
-        font-size: 2rem;
+        font-size: 1.5rem;
         color: #fff;
         margin-bottom: 1rem;
     }

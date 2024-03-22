@@ -11,7 +11,7 @@
         <span></span>
       </div>
       <div class="call">
-      <p>Contact Us on </p>
+      <h2>Contact us on </h2>
       <p>+91 7976711820, +91 9829285925</p>
     </div>
     </div>
@@ -91,10 +91,20 @@ const scroll = () => {
     align-items: center;
     justify-content: center;
     margin-top: 2.5%;
+    width: 50%;
 
 }
 
 .call p {
+    z-index: 2;
+    font-size: 1.5rem;
+    color: white;
+    font-weight: bold;
+    padding: 0% 2.5%;
+    background-color: #00000077;
+}
+
+.call h2 {
     z-index: 2;
     font-size: 1.5rem;
     color: white;
