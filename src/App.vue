@@ -5,11 +5,14 @@ import Services from './components/Services.vue'
 import Navbar from './components/Navbar.vue'
 import ContactUs from './components/ContactUs.vue'
 import About from './components/About.vue'
+import OurFleet from './components/OurFleet.vue'
+import FAQ from './components/FAQ.vue'
+import Testimonials from './components/Testimonials.vue'
 </script>
 
 <template>
   <header>
-    <Navbar/>
+    <Navbar />
   </header>
   <main>
     <section id="home">
@@ -18,8 +21,17 @@ import About from './components/About.vue'
     <section id="services">
       <Services />
     </section>
+    <section id="ourfleet">
+      <OurFleet />
+    </section>
     <section id="about">
       <About />
+    </section>
+    <section id="testimonials">
+      <Testimonials />
+    </section>
+    <section id="about">
+      <FAQ />
     </section>
     <section id="contactUs">
       <ContactUs />
@@ -28,7 +40,7 @@ import About from './components/About.vue'
       <AppFooter />
     </footer>
   </main>
-  
+
 </template>
 
 <style scoped>
