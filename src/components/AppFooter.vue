@@ -3,6 +3,8 @@
         <h1>Shree Govind Tourism</h1>
         <div class="footer">
             <div class="section info">
+                <h3>Contact</h3>
+                <p>+91 7976711820 , +91 9829285925</p>
                 <h3>Address</h3>
                 <p>32/406, Sector 3, near KV-6 Basketball Court, Sanganer, Sector 3, Pratap Nagar, Jaipur, Rajasthan
                     302033</p>
@@ -26,14 +28,7 @@
                     <li><a href="#">Contact</a></li>
                 </ul>
             </div>
-            <div class="section">
-                <h3>Socials</h3>
-                <ul>
-                    <li><a href="#"><i class="fab fa-facebook"></i></a></li>
-                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                </ul>
-            </div>
+
         </div>
     </div>
 
