@@ -177,7 +177,7 @@ const testimonials = ref(
     }
 
     .rating {
-        scale: 1.5;
+        scale: 1;
         width: 100%;
         bottom: 0;
         background-color: transparent;
