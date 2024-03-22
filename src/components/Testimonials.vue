@@ -1,0 +1,163 @@
+<template lang="">
+    <div class="testimonials">
+        <img class="bg" src="/testimonials.jpeg"/>
+        <h1>Testimonials</h1>
+        <div class="testimonial-list">
+            <div class="testimonial-items" v-for="testimonial in testimonials" :key="testimonial.author">
+                <img src="/quote.png" alt="quote" />
+                <h3>{{ testimonial.author }}</h3>
+                <p>{{ testimonial.testimonial }}</p>
+            </div>
+        </div>
+    </div>
+</template>
+<script setup>
+import { ref } from 'vue';
+
+const testimonials = ref(
+    [
+        {
+            "author": "Ramesh Sharma",
+            "testimonial": "Booking Shree Govind Tourism for my trip in Rajasthan was the best decision I made! The drivers were punctual, the cars were clean and comfortable, and the service was impeccable. Highly recommended for anyone exploring the beauty of Rajasthan!"
+        },
+        {
+            "author": "Priya Patel",
+            "testimonial": "Shree Govind Tourism made my journey through Rajasthan truly memorable. From the moment I booked until the end of my trip, their team provided exceptional service. Courteous drivers, reliable pickups, and a smooth ride throughout. Will definitely choose them again!"
+        },
+        {
+            "author": "Anil Singh",
+            "testimonial": "I recently used Shree Govind Tourism for my family vacation in Rajasthan, and I couldn't be happier with the experience. The driver was knowledgeable about the local sights, and the car was well-maintained and comfortable. Thank you for making our trip hassle-free!"
+        }
+    ]
+)
+
+</script>
+<style scoped>
+.testimonials {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    background-color: #fae4d4;
+}
+
+.testimonials h1 {
+    font-size: 3rem;
+    color: #451d03;
+}
+
+.bg {
+    width: 100%;
+    height: 120vh;
+    object-fit: cover;
+    margin-top: 2rem;
+    position: absolute;
+    background-color: #fff;
+    z-index: 0;
+    opacity: 0.3
+}
+
+.testimonial-items {
+    width: 30%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    z-index: 1
+}
+
+.testimonial-list {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+
+}
+
+.testimonial-items img {
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    color: #451d03;
+}
+
+.testimonial-items h3 {
+    font-size: 1.5rem;
+    color: #451d03;
+    margin-top: 1rem;
+    z-index: 1;
+}
+
+.testimonial-items p {
+    font-size: 1.25rem;
+    color: #451d03;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+@media (max-width: 768px) {
+
+    .testimonials {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        position: relative;
+        background-color: #fae4d4;
+    }
+
+    .testimonial-items {
+        width: 100%;
+        height: 22.5vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2rem;
+        z-index: 1
+    }
+
+    .testimonial-items img {
+        width: 16px;
+        height: 16px;
+        background-color: transparent;
+        color: #451d03;
+    }
+
+    .testimonial-list {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-top: 1rem;
+
+    }
+
+    .testimonial-items h3 {
+        font-size: 1.5rem;
+        color: #451d03;
+        z-index: 1;
+    }
+
+    .testimonial-items p {
+        font-size: 1rem;
+        color: #451d03;
+        text-align: center;
+    }
+
+}
+</style>
