@@ -249,7 +249,7 @@ function selectSection(index) {
     }
 
     .carimg {
-        width: 40vw;
+        width: 60vw;
         height: 15vh;
         object-fit: contain;
         border-radius: 8px;
