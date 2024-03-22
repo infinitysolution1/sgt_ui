@@ -85,6 +85,7 @@ function toggle(index) {
 .item {
   width: 100%;
   margin: 1rem 0;
+
 }
 
 .question {
