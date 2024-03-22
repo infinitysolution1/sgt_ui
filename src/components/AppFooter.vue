@@ -22,10 +22,10 @@
             <div class="section">
                 <h3>Links</h3>
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a v-on:click="scroll">Home</a></li>
+                    <li><a v-on:click="about">About</a></li>
+                    <li><a v-on:click="services">Services</a></li>
+                    <li><a v-on:click="contact">Contact Us</a></li>
                 </ul>
             </div>
 
@@ -35,6 +35,38 @@
 </template>
 
 <script setup>
+
+import { ref, onMounted } from 'vue';
+
+const scrollHeight = ref(0);
+
+const scroll = () => {
+    const homeElement = document.getElementById('home');
+    if (homeElement) {
+        homeElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+};
+
+const about = () => {
+    const aboutElement = document.getElementById('about');
+    if (aboutElement) {
+        aboutElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+};
+
+const services = () => {
+    const servicesElement = document.getElementById('services');
+    if (servicesElement) {
+        servicesElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+};
+
+const contact = () => {
+    const contactElement = document.getElementById('contact');
+    if (contactElement) {
+        contactElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+};
 </script>
 
 <style scoped>
