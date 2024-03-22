@@ -148,6 +148,11 @@ function toggle(index) {
 
 @media (max-width: 768px) {
 
+  .accordion-group h1 {
+    font-size: 2rem;
+    color: #451d03;
+  }
+
   .accordion-group {
     width: 100%;
     height: 100vh;

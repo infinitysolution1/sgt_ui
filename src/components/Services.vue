@@ -78,6 +78,8 @@
 
 @media (min-width: 768px) {
 
+
+
     .service {
         width: 25vw;
         height: 60vh;
@@ -141,6 +143,18 @@
 }
 
 @media (max-width: 768px) {
+
+    .services-header h2 {
+        font-size: 2rem;
+        color: #451d03;
+        margin-top: 5vh;
+    }
+
+    .services-header p {
+        font-size: 1rem;
+        color: #451d03;
+    }
+
     .services-content {
         display: flex;
         width: 90%;

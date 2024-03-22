@@ -181,6 +181,12 @@ function selectSection(index) {
 
 @media (max-width: 768px) {
 
+    .fleet h1 {
+        font-size: 2rem;
+        color: #451d03;
+
+    }
+
 
     .fleet p {
         font-size: 0.9rem;

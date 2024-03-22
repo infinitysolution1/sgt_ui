@@ -7,6 +7,7 @@
                 <img src="/quote.png" alt="quote" />
                 <h3>{{ testimonial.author }}</h3>
                 <p>{{ testimonial.testimonial }}</p>
+                <img class="rating" src="/rating.webp"/>
             </div>
         </div>
     </div>
@@ -104,7 +105,22 @@ const testimonials = ref(
     margin-top: 1rem;
 }
 
+.rating {
+    scale: 3;
+    width: 200px;
+    height: 50px;
+    background-color: transparent;
+    color: #451d03;
+    margin-top: 1rem;
+
+}
+
 @media (max-width: 768px) {
+
+    .testimonials h1 {
+        font-size: 2rem;
+        color: #451d03;
+    }
 
     .testimonials {
         width: 100%;
@@ -118,6 +134,15 @@ const testimonials = ref(
         background-color: #fae4d4;
     }
 
+    .testimonial-list {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
     .testimonial-items {
         width: 100%;
         height: 22.5vh;
@@ -125,15 +150,17 @@ const testimonials = ref(
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-top: 2rem;
+        margin-top: 3rem;
         z-index: 1
     }
 
     .testimonial-items img {
-        width: 16px;
-        height: 16px;
+        width: 24px;
+        height: 24px;
         background-color: transparent;
         color: #451d03;
+        margin-bottom: -5%;
+        margin-top: 2.5%;
     }
 
     .testimonial-list {
@@ -157,6 +184,16 @@ const testimonials = ref(
         font-size: 1rem;
         color: #451d03;
         text-align: center;
+    }
+
+    .rating {
+        scale: 7;
+        width: 200px;
+        height: 50px;
+        background-color: transparent;
+        color: #451d03;
+        margin-top: 1rem;
+
     }
 
 }
