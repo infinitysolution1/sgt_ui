@@ -41,6 +41,12 @@ import Testimonials from './components/Testimonials.vue'
     </footer>
   </main>
 
+  <div class="contactnow">
+    <h2>Contact us on </h2>
+    <p>+91 7976711820</p>
+    <p>+91 9829285925</p>
+  </div>
+
 </template>
 
 <style scoped>
@@ -75,6 +81,33 @@ main {
   align-items: center;
   left: 0;
   top: 0;
+}
+
+.contactnow {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  padding: 8px 16px;
+  margin: 1.5%;
+  background-color: #451d03;
+  color: white;
+  font-size: 0.75rem;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+}
+
+.contactnow h2 {
+  font-size: 0.75rem;
+  margin: 0;
+}
+
+.contactnow p {
+  font-size: 1rem;
+  margin: 0;
 }
 
 @media (min-width: 1024px) {
