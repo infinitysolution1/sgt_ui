@@ -92,7 +92,7 @@ onMounted(() => {
     .navbar h1 {
         width: 100%;
         text-align: center;
-        font-size: 1.5rem;
+        font-size: 1.25rem;
         color: #fff;
     }
 }

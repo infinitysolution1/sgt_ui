@@ -39,7 +39,7 @@ const testimonials = ref(
     height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     overflow: hidden;
     position: relative;
@@ -64,13 +64,12 @@ const testimonials = ref(
 
 .testimonial-items {
     width: 30%;
-    height: 40vh;
+    height: 30vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 2rem;
-    z-index: 1
+    z-index: 1;
 }
 
 .testimonial-list {
@@ -80,7 +79,6 @@ const testimonials = ref(
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    margin-top: 3rem;
 
 }
 
@@ -106,13 +104,11 @@ const testimonials = ref(
 }
 
 .rating {
-    scale: 3;
-    width: 200px;
-    height: 50px;
+    height: 80px;
+    scale: 1;
     background-color: transparent;
     color: #451d03;
-    margin-top: 1rem;
-
+    margin-bottom: 2.5%;
 }
 
 @media (max-width: 768px) {
