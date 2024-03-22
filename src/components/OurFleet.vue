@@ -189,10 +189,10 @@ function selectSection(index) {
 
 
     .fleet p {
-        font-size: 0.9rem;
+        font-size: 0.75rem;
         color: #451d03;
         text-align: center;
-        width: 90%;
+        width: 95%;
     }
 
     .types {
@@ -200,8 +200,8 @@ function selectSection(index) {
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        margin-top: 3rem;
-        width: 80%;
+        margin-top: 1rem;
+        width: 90%;
     }
 
     .types ul {
@@ -214,7 +214,7 @@ function selectSection(index) {
     }
 
     .types a {
-        font-size: 1.5rem;
+        font-size: 1rem;
         color: #451d03;
         cursor: pointer;
         margin: 0%;
@@ -225,7 +225,7 @@ function selectSection(index) {
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
-        margin-top: 2rem;
+        margin-top: 0.5rem;
         width: 90%;
     }
 

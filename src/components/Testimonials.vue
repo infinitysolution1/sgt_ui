@@ -4,7 +4,7 @@
         <h1>Testimonials</h1>
         <div class="testimonial-list">
             <div class="testimonial-items" v-for="testimonial in testimonials" :key="testimonial.author">
-                <img src="/quote.png" alt="quote" />
+                <img class="quote" src="/quote.png" alt="quote" />
                 <h3>{{ testimonial.author }}</h3>
                 <p>{{ testimonial.testimonial }}</p>
                 <img class="rating" src="/rating.webp"/>
@@ -84,7 +84,7 @@ const testimonials = ref(
 
 }
 
-.testimonial-items img {
+.quote {
     width: 50px;
     height: 50px;
     background-color: transparent;
@@ -117,10 +117,7 @@ const testimonials = ref(
 
 @media (max-width: 768px) {
 
-    .testimonials h1 {
-        font-size: 2rem;
-        color: #451d03;
-    }
+
 
     .testimonials {
         width: 100%;
@@ -134,66 +131,64 @@ const testimonials = ref(
         background-color: #fae4d4;
     }
 
+    .testimonials h1 {
+        font-size: 2rem;
+        color: #451d03;
+    }
+
     .testimonial-list {
         width: 90%;
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: center;
         align-items: center;
         flex-wrap: wrap;
     }
 
     .testimonial-items {
         width: 100%;
-        height: 22.5vh;
+        height: 25vh;
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin-top: 3rem;
-        z-index: 1
+        padding: 0 1rem;
+        z-index: 1;
+        margin-top: 5%;
+        position: relative;
     }
 
-    .testimonial-items img {
+    .quote {
         width: 24px;
         height: 24px;
         background-color: transparent;
         color: #451d03;
-        margin-bottom: -5%;
-        margin-top: 2.5%;
+        top: 0;
     }
 
-    .testimonial-list {
-        width: 90%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-        margin-top: 1rem;
 
-    }
 
     .testimonial-items h3 {
-        font-size: 1.5rem;
+        font-size: 1rem;
         color: #451d03;
         z-index: 1;
+        margin-top: 4px;
     }
 
     .testimonial-items p {
-        font-size: 1rem;
+        font-size: 0.6rem;
         color: #451d03;
         text-align: center;
+        margin-top: 4px;
     }
 
     .rating {
-        scale: 7;
-        width: 200px;
-        height: 50px;
+        scale: 1.5;
+        width: 100%;
+        bottom: 0;
         background-color: transparent;
         color: #451d03;
-        margin-top: 1rem;
-
+        object-fit: contain;
+        margin-bottom: 0px;
+        margin-top: 0px;
     }
 
 }

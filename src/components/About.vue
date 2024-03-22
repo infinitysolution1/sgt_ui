@@ -81,12 +81,21 @@
 
     .about {
         flex-direction: column-reverse;
-        padding: 2rem 2rem;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 1rem 1rem;
     }
 
     .content {
         width: 100%;
-        align-items: center;
+        display: flex;
+        flex-direction: column;
+        z-index: 2;
+        color: #451d03;
+
     }
 
     .content h2 {
@@ -95,22 +104,32 @@
     }
 
     .content p {
-        font-size: 1rem;
+        font-size: 0.75rem;
         text-align: center;
     }
 
     .bgimg {
-        width: 30vw;
-        height: 20vh;
+        width: 100%;
+        height: 30vh;
         object-fit: cover;
         left: 0;
         background-color: black;
         z-index: 0;
     }
 
-    .bgimg {
-        width: 100%;
-        height: 40vh;
+    .imgdiv p {
+        font-size: 0.75rem;
+        color: #451d03;
+        text-align: center;
+        z-index: 2;
+        margin-top: 1rem;
+        font-style: italic;
+    }
+
+    .imgdiv h3 {
+        font-size: 0.75rem;
+        color: #451d03;
+        text-align: center;
     }
 }
 </style>

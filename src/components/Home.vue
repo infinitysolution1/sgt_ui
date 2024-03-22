@@ -115,10 +115,15 @@ const scroll = () => {
 
 @media (max-width: 768px) {
     .content h1 {
-        font-size: 4rem;
+        font-size: 2rem;
         color: white;
         line-height: 8rem;
         text-align: center;
+    }
+
+    .content p {
+        font-size: 1rem;
+        color: white;
     }
 
     .or span {
@@ -126,7 +131,18 @@ const scroll = () => {
         border-bottom: 2px solid white;
         margin: 0 1rem;
     }
+
+    .call {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 2.5%;
+        width: 90%;
+
+    }
 }
+
 
 .content button {
     padding: 1rem 3rem;

@@ -165,11 +165,11 @@ function toggle(index) {
   }
 
   .question p {
-    font-size: 1.25rem;
+    font-size: 1rem;
   }
 
   .item-active p {
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
 }
 </style>

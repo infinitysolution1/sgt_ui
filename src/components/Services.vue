@@ -151,7 +151,7 @@
     }
 
     .services-header p {
-        font-size: 1rem;
+        font-size: 0.75rem;
         color: #451d03;
     }
 
@@ -180,7 +180,7 @@
 
     .service h3 {
         z-index: 1;
-        font-size: 1.5rem;
+        font-size: 1rem;
         color: #fff;
         margin-bottom: 1rem;
     }
@@ -188,7 +188,7 @@
     .service p {
         opacity: 1;
         z-index: 1;
-        font-size: 1rem;
+        font-size: 0.75rem;
         color: #fff;
         margin-bottom: 1rem;
         text-align: center;
