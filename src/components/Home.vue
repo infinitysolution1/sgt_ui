@@ -22,10 +22,10 @@
 import { ref } from "vue";
 
 const scroll = () => {
-    const homeElement = document.getElementById("contact");
-    if (homeElement) {
-        homeElement.scrollIntoView({ behavior: "smooth" });
-    }
+    window.scrollTo({
+        top: document.documentElement.scrollHeight,
+        behavior: "smooth"
+    });
 };
 </script>
 <style scoped>
