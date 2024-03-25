@@ -249,7 +249,7 @@ function selectSection(index) {
         padding: 1.5% 5%;
         width: 100%;
         text-align: start;
-        font-size: 1.5rem;
+        font-size: 1rem;
         color: white;
         background-color: #00000055;
     }
