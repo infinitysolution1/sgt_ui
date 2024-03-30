@@ -68,7 +68,6 @@ footer {
 section {
   flex: 1;
   display: flex;
-  min-height: 100vh;
   width: 100vw;
   overflow-y: hidden;
 }

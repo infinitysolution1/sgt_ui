@@ -149,6 +149,16 @@ function toggle(index) {
 
 @media (max-width: 768px) {
 
+  .accordion-group {
+    width: 100%;
+    max-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fae4d4;
+  }
+
   .accordion-group h1 {
     font-size: 2rem;
     color: #451d03;
