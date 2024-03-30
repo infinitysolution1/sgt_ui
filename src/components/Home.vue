@@ -43,7 +43,7 @@ const scroll = () => {
 
 .bgimg {
     width: 100vw;
-    height: 100%;
+    height: 100vh;
     object-fit: cover;
     left: 0;
     position: absolute;

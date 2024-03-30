@@ -70,7 +70,7 @@
 
 .bgimg {
     width: 30vw;
-    height: 70vh;
+    height: 60vh;
     object-fit: cover;
     left: 0;
     background-color: black;
