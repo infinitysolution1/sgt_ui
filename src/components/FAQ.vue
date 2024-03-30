@@ -71,8 +71,9 @@ function toggle(index) {
 }
 
 .accordion-group h1 {
-  font-size: 3rem;
+  font-size: 2rem;
   color: #451d03;
+  margin: 0;
 }
 
 .accordion-list {
@@ -84,7 +85,7 @@ function toggle(index) {
 
 .item {
   width: 100%;
-  margin: 1rem 0;
+  margin: 0.75rem 0;
 
 }
 
@@ -101,13 +102,13 @@ function toggle(index) {
 }
 
 .question p {
-  font-size: 1.75rem;
+  font-size: 1.5rem;
   color: #451d03;
 }
 
 .item-active p {
   color: #451d03;
-  font-size: 1.25rem;
+  font-size: 1rem;
 }
 
 

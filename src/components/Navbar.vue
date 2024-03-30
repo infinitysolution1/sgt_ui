@@ -56,7 +56,7 @@ onMounted(() => {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    padding: 1.5rem 4rem;
+    padding: 1rem 4rem;
     background-color: transparent;
     transition: background-color 1s;
 }
@@ -67,21 +67,17 @@ onMounted(() => {
 }
 
 .navbar h1 {
-    font-size: 2.5rem;
+    font-size: 1.75rem;
     color: #fff;
+    margin: 0
 }
-
-
-
-
-
-
 
 .navbar ul {
     display: flex;
     list-style: none;
     width: 40%;
     justify-content: space-between;
+    margin: 0
 }
 
 @media (max-width: 768px) {
@@ -94,11 +90,12 @@ onMounted(() => {
         text-align: center;
         font-size: 1.25rem;
         color: #fff;
+        margin: 0
     }
 }
 
 .navbar li {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
 }
 
 .navbar a {

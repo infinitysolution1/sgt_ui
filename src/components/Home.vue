@@ -61,14 +61,14 @@ const scroll = () => {
 }
 
 .content p {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     color: white;
 }
 
 .content h1 {
-    font-size: 6rem;
+    font-size: 4rem;
     color: white;
-    line-height: 8rem;
+    margin: 0;
 }
 
 .or {
@@ -97,7 +97,7 @@ const scroll = () => {
 
 .call p {
     z-index: 2;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     color: white;
     font-weight: bold;
     padding: 0% 2.5%;

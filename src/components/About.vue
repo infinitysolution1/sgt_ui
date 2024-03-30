@@ -38,12 +38,12 @@
 }
 
 .content h2 {
-    font-size: 3rem;
+    font-size: 2rem;
     text-align: start;
 }
 
 .content p {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     text-align: start;
     margin-top: 2rem;
 }
@@ -101,6 +101,7 @@
     .content h2 {
         font-size: 2rem;
         text-align: center;
+        margin: 0;
     }
 
     .content p {

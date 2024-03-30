@@ -86,9 +86,9 @@ function selectSection(index) {
 }
 
 .fleet h1 {
-    font-size: 3rem;
+    font-size: 2rem;
     color: #451d03;
-
+    margin: 0;
 }
 
 .fleet p {

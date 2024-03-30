@@ -39,7 +39,7 @@ const testimonials = ref(
     height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     overflow: hidden;
     position: relative;
@@ -47,8 +47,9 @@ const testimonials = ref(
 }
 
 .testimonials h1 {
-    font-size: 3rem;
+    font-size: 2.25rem;
     color: #451d03;
+    margin: 0;
 }
 
 .bg {
@@ -62,6 +63,18 @@ const testimonials = ref(
     opacity: 0.3
 }
 
+
+
+.testimonial-list {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 7.5%;
+}
+
 .testimonial-items {
     width: 30%;
     height: 30vh;
@@ -72,32 +85,22 @@ const testimonials = ref(
     z-index: 1;
 }
 
-.testimonial-list {
-    width: 90%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-
-}
-
 .quote {
-    width: 50px;
-    height: 50px;
+    width: 32px;
+    height: 32px;
     background-color: transparent;
     color: #451d03;
 }
 
 .testimonial-items h3 {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     color: #451d03;
     margin-top: 1rem;
     z-index: 1;
 }
 
 .testimonial-items p {
-    font-size: 1.25rem;
+    font-size: 1rem;
     color: #451d03;
     text-align: center;
     margin-top: 1rem;
@@ -153,8 +156,8 @@ const testimonials = ref(
     }
 
     .quote {
-        width: 24px;
-        height: 24px;
+        width: 16px;
+        height: 16px;
         background-color: transparent;
         color: #451d03;
         top: 0;

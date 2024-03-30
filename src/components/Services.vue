@@ -55,12 +55,13 @@
 }
 
 .services-header h2 {
-    font-size: 3rem;
+    font-size: 2rem;
+    margin: 0;
     color: #451d03;
 }
 
 .services-header p {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     color: #451d03;
 }
 
